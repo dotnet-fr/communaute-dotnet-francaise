@@ -9,6 +9,7 @@
 ## Les fondamentaux
 
 * [Prérequis - C\#](les-fondamentaux/prerequis-csharp.md)
+* [Découvrir la POO](les-fondamentaux/decouvrir-la-poo.md)
 
 ## Autour du web
 
