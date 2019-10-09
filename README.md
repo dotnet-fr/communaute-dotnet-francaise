@@ -47,7 +47,7 @@ On retrouve ici le côté très pratique d'un node.js avec son client, ou bien a
 
 Ici, on va pouvoir **créer des projets, restorer des packages**, ... directement depuis une ligne de commande.
 
-[Découvrer ici le potentiel de dotnet client.](https://www.dotnetcore-academy.net/learn/decouvrir-dotnet-client)
+Découvrer ici le potentiel de dotnet client.
 
 ### Choix de l'IDE
 
