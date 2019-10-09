@@ -8,7 +8,7 @@ description: >-
 
 1. **Les fondamentaux**
    1. [Découvrir C\#](https://www.dotnetcore-academy.net/learn/les-fondamentaux/prerequis-csharp)
-   2. Apprendre la POO avec C\#
+   2. [Apprendre la POO avec C\#](https://www.dotnetcore-academy.net/learn/les-fondamentaux/decouvrir-la-poo)
 
 
 
