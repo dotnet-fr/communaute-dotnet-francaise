@@ -18,6 +18,7 @@ description: 'Tout sur dotnet core : C#, ml.net, wpf, mvc, api, blazor'
 
 **Vous découvrerez ici des tutoriaux complets, des trucs astuces sur :**
 
+* [Les fondamentaux C\#](https://www.dotnetcore-academy.net/learn/les-fondamentaux/prerequis-csharp)
 * [C\# 8 et les prochaines versions](https://www.dotnetcore-academy.net/learn/c-8-les-nouveautes)
 * [asp.net core](https://www.dotnetcore-academy.net/learn/asp.net-core)
 * entities framework core
@@ -38,6 +39,15 @@ Depuis l'arrivée de dotnet core 1.0, tout a changé !
 * et surtout [dotnet est opensource](https://github.com/dotnet)
 
 **dotnet core 3**.à vient de sortir, officiellement depuis le 23 septembre 2019.
+
+### Un client omniscient
+
+Dotnet core diffère de son grand frère par la présence d'un **client qui s'exécute en ligne de commande.**  
+On retrouve ici le côté très pratique d'un node.js avec son client, ou bien angular \(avec ng\).
+
+Ici, on va pouvoir **créer des projets, restorer des packages**, ... directement depuis une ligne de commande.
+
+[Découvrer ici le potentiel de dotnet client.](https://www.dotnetcore-academy.net/learn/decouvrir-dotnet-client)
 
 ### Choix de l'IDE
 
