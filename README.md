@@ -24,7 +24,7 @@ description: 'Tout sur dotnet core : C#, ml.net, wpf, mvc, api, blazor'
 * entities framework core
 * blazor
 * asp.net mvc
-* web api
+* [web api](https://www.dotnetcore-academy.net/learn/autour-du-web/web-api.net)
 
 \*\*\*\*
 
