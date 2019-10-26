@@ -16,6 +16,7 @@
 
 * [asp.net core](autour-du-web/asp-net-core.md)
 * [Blazor](autour-du-web/blazor.md)
+* [Web api.net](autour-du-web/web-api.net.md)
 
 ## Bases de données
 
