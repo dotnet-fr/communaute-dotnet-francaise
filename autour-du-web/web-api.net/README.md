@@ -7,11 +7,12 @@ description: >-
 
 # Web api.net
 
-Nous vous proposons un tutorial, répartis en 11 étapes : 
+Nous vous proposons un tutorial, répartis en 12 étapes : 
 
 * **API web rest : rappels**
 * **dotnet core : v2 / v3 les différences**
-* **Mod el / Controller, Route**
+* \*\*\*\*[**Premières étapes**](https://www.dotnetcore-academy.net/learn/autour-du-web/web-api.net/demarrer-un-projet-web-api-dotnet-core)\*\*\*\*
+* **Model / Controller, Route**
   * **Valider ses données**
 * **Intégrer entities**
 * **Sécuriser son api**
