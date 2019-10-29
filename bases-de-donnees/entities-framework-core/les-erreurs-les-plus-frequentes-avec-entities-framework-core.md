@@ -74,3 +74,12 @@ public class Wookie
 }
 ```
 
+## Impossible de scaffolder la base de données existantes
+
+![](../../.gitbook/assets/image%20%2818%29.png)
+
+Vous avez sans doute essayer de lancer la **commande de scaffolding depuis une base de données** existante :   
+**dotnet ef dbcontext scaffold "Data Source=\(local\): Initial Catalog=StarWars.Database" Microsoft.EntityFrameworkCore.SqlServer**
+
+Il vous faut ajouter la référence au Package :  **Microsoft.EntityFrameworkCore.Design, depuis nuget.**
+

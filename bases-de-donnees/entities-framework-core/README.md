@@ -24,7 +24,7 @@ public class DefaultContext : DbContext
 
 En pensant à ajouter la bonne référence
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 
 
@@ -60,7 +60,7 @@ Attention, ici, les contraintes d'intégrité ne sont pas vérifier. C'est très
 
 **Vous devez alors paramétrer Entities pour forcer le travail en mémoire, grâce à l'extension :** 
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 
 
