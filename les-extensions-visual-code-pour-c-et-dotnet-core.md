@@ -7,7 +7,7 @@
 * Surlignage
 * Intellisense 
 
-![](.gitbook/assets/image%20%281%29.png)
+![](.gitbook/assets/image%20%282%29.png)
 
 ### Commentaires XML 
 
@@ -26,7 +26,7 @@ Grâce à cette extension, vous aller pouvoir avoir :
 * une meilleure visualisation des dossiers \(un des points faibles de Visual Code\)
 * des **icônes dédiées suivant les extensions de fichiers**
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 ### Partage de code à distance
 

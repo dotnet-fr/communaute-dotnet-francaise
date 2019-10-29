@@ -17,6 +17,7 @@
 * [asp.net core](autour-du-web/asp-net-core.md)
 * [Blazor](autour-du-web/blazor.md)
 * [Web api.net](autour-du-web/web-api.net/README.md)
+  * [Les erreurs les plus communes](autour-du-web/web-api.net/les-erreurs-les-plus-communes.md)
   * [Démarrer un projet web api dotnet core](autour-du-web/web-api.net/demarrer-un-projet-web-api-dotnet-core.md)
 
 ## Bases de données

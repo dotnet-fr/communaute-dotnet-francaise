@@ -26,3 +26,7 @@ Nous vous proposons un tutorial, répartis en 12 étapes :
 * **Tester son api**
 * **Publier son api**
 
+\*\*\*\*
+
+Découvrez ici les erreurs les plus communes.
+
