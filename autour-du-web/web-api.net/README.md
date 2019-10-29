@@ -28,5 +28,5 @@ Nous vous proposons un tutorial, répartis en 12 étapes :
 
 \*\*\*\*
 
-Découvrez ici les erreurs les plus communes.
+Découvrez ici [les erreurs les plus communes](https://www.dotnetcore-academy.net/learn/autour-du-web/web-api.net/les-erreurs-les-plus-communes).
 
