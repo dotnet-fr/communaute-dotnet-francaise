@@ -8,7 +8,7 @@ description: >-
 
 ## System.ArgumentException - AddDbContext was called with configuration, but the context type only declares a parameterless constructor
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 Ici, nous avons créé un Context ORM Entities Framework Core, qui n'a **qu'un constructeur vide**.  
 Nous devons ajouter un cnostructor dédié pour prendre en compte la configuration souhaité depuis Startup.cs.  

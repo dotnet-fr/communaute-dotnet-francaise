@@ -24,7 +24,7 @@ public class DefaultContext : DbContext
 
 En pensant à ajouter la bonne référence
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 
 
@@ -60,7 +60,7 @@ Attention, ici, les contraintes d'intégrité ne sont pas vérifier. C'est très
 
 **Vous devez alors paramétrer Entities pour forcer le travail en mémoire, grâce à l'extension :** 
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 
 
 
@@ -76,4 +76,61 @@ En la **configurant côté Startup.cs** :
 ```
 
 Vous allez pouvoir l'appeler dans votre Controller, **sans créer de base de données**, sous SQL SERVER par exemple;
+
+Mais notre base est vide ...
+
+```text
+[HttpGet()]
+public IActionResult Get()
+{
+    var query = from wookie in this._context.Wookies
+                select wookie;
+
+    return this.Ok(query);
+}
+```
+
+![](../../.gitbook/assets/image%20%285%29.png)
+
+Il nous faut **la remplir de fausses données** !
+
+
+
+### SeedData : où comment initialiser un context Entities de donner en mémoire ?
+
+Ajouter une extension de méthode, qui va s'attacher au Host de la classe Program : 
+
+```text
+public static class SeedData
+{
+    public static void Seed(this IWebHost host)
+    {
+        using var scope = host.Services.CreateScope();
+
+        var context = scope.ServiceProvider.GetService<Models.Contexts.DefaultContext>();
+
+        context.Wookies.Add(new Wookie("Chewie", WarriorType.Chief));
+        context.Wookies.Add(new Wookie("Chewie 2", WarriorType.Gun));
+
+        context.SaveChanges();
+    }
+}
+```
+
+Puis appelez cette extension de méthode dans la classe Program : 
+
+```text
+ public static void Main(string[] args)
+{
+    IHost host = CreateHostBuilder(args).Build();
+
+    host.Seed();
+
+    host.Run();
+}
+```
+
+Et maintenant, nous avons bien **des données dans notre json généré** ! :\)
+
+
 
