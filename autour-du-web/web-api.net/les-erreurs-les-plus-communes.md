@@ -15,7 +15,7 @@ Voici les questions à vous poser :
 
 Au minimum, vous devez avoir ces attributs :
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 
 

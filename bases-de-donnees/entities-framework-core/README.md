@@ -6,11 +6,11 @@ description: 'Tout pour bien commencer autour d''entities framework core, avec d
 
 Première étape : ajout du Package **Microsoft. EntityFrameworkCore. SqlServer ou à minimum :Microsoft. EntityFrameworkCore**
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%285%29.png)
 
 Acceptons les licences
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image%20%284%29.png)
 
 ### Puis créeons notre context ORM Entities Framework Core
 
@@ -24,7 +24,7 @@ public class DefaultContext : DbContext
 
 En pensant à ajouter la bonne référence
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 
 
@@ -60,7 +60,7 @@ Attention, ici, les contraintes d'intégrité ne sont pas vérifier. C'est très
 
 **Vous devez alors paramétrer Entities pour forcer le travail en mémoire, grâce à l'extension :** 
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 
 
@@ -90,7 +90,7 @@ public IActionResult Get()
 }
 ```
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%286%29.png)
 
 Il nous faut **la remplir de fausses données** !
 
