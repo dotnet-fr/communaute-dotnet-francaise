@@ -21,7 +21,7 @@ description: 'Tout sur dotnet core : C#, ml.net, wpf, mvc, api, blazor'
 * [Les fondamentaux C\#](https://www.dotnetcore-academy.net/learn/les-fondamentaux/prerequis-csharp)
 * [C\# 8 et les prochaines versions](https://www.dotnetcore-academy.net/learn/c-8-les-nouveautes)
 * [asp.net core](https://www.dotnetcore-academy.net/learn/asp.net-core)
-* entities framework core
+* [entities framework core](https://www.dotnetcore-academy.net/learn/bases-de-donnees/entities-framework-core)
 * blazor
 * asp.net mvc
 * [web api](https://www.dotnetcore-academy.net/learn/autour-du-web/web-api.net)
