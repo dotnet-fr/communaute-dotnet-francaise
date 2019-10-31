@@ -10,9 +10,15 @@ description: 'Tout sur dotnet core : C#, ml.net, wpf, mvc, api, blazor'
 
 **Bravo, vous avez fait le bon choix !**
 
+
+
+**Cette communauté est fièrement sponsorisée par** [**l'entreprise DevToBeCurious**](https://devtobecurious.com)**.  
+Elle est ouverte à tout développeurs, développeuses qui souhaitent parler de code, de techniques, de projets, autour de dotnet core.**
+
 \*\*\*\*
 
-**Pour suivre le code source, les tutoriaux,** [**nous avons construit un repository dédié**](https://github.com/evan-boissonnot/discover-dotnet-core)**.**
+**Pour suivre le code source, les tutoriaux,** [**nous avons construit un repository dédié**](https://github.com/evan-boissonnot/discover-dotnet-core)**.  
+Si vous souhaitez proposer du code, un pull request et c'est parti ! :\)**
 
 \*\*\*\*
 
