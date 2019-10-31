@@ -6,7 +6,14 @@ description: >-
 
 # Les erreurs les plus fréquentes avec Entities Framework Core
 
+## Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException  : Attempted to update or delete an entity that does not exist in the store
 
+Vous avez lancé la sauvegarde de votre context Entities, et vous obtenez cette erreur ?
+
+Il semblerait que vous ayiez attaché une instance de votre objet, qui **n'appartient pas à votre context**.  
+Entities va vérifier avec l'identifiant \(**l'attribut \[Key\]** \) si l'instance existe déjà dans le context.
+
+Cherchez à attacher des objets déjà existants, ou en tout connus de votre context.
 
 ## System.ArgumentException - AddDbContext was called with configuration, but the context type only declares a parameterless constructor
 
