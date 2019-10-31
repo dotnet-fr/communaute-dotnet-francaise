@@ -24,6 +24,7 @@
 
 * [Linq](bases-de-donnees/linq.md)
 * [Entities framework core](bases-de-donnees/entities-framework-core/README.md)
+  * [Les questions les plus fréquentes avec Entities Framework Core](bases-de-donnees/entities-framework-core/les-questions-les-plus-frequentes-avec-entities-framework-core.md)
   * [Les erreurs les plus fréquentes avec Entities Framework Core](bases-de-donnees/entities-framework-core/les-erreurs-les-plus-frequentes-avec-entities-framework-core.md)
 * [Cosmo db](bases-de-donnees/cosmo-db.md)
 
