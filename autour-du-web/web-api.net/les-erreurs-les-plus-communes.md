@@ -4,6 +4,12 @@ description: 'Wiki des erreurs les plus connues, durant vos développements d''a
 
 # Les erreurs les plus communes
 
+## Que faire quand j'ai System.NotSupportedException: Deserialization of reference types without parameterless constructor is not supported ?
+
+Vous avez sans doute tenté de profiter du Binder automatique d'asp.net core. Et c'est une très bonne chose !
+
+Cependant, le Binder par défaut cherche à instancier, en automatique, votre classe. Ne sachant pas quel\(s\) paramètre\(s\) mettre dans votre constructeur, **il attend un constructeur vide**.
+
 ## Que faire quand j'ai InvalidOperationException ?
 
 ![](../../.gitbook/assets/image%20%281%29.png)
