@@ -15,6 +15,8 @@ Entities va vérifier avec l'identifiant \(**l'attribut \[Key\]** \) si l'instan
 
 Cherchez à attacher des objets déjà existants, ou en tout connus de votre context.
 
+De plus, vérifiez si vous avez bien **la clef de votre instance qui est renseignée**.
+
 ## System.ArgumentException - AddDbContext was called with configuration, but the context type only declares a parameterless constructor
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
