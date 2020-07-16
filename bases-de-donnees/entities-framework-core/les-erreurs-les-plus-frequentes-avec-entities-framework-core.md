@@ -25,8 +25,7 @@ Ici, nous avons créé un Context ORM Entities Framework Core, qui n'a **qu'un c
 Nous devons ajouter un cnostructor dédié pour prendre en compte la configuration souhaité depuis Startup.cs.  
 
 
-{% code-tabs %}
-{% code-tabs-item title="DefaultContext.cs" %}
+{% code title="DefaultContext.cs" %}
 ```text
 public class DefaultContext : DbContext
 {
@@ -45,8 +44,7 @@ public class DefaultContext : DbContext
     public DbSet<Wookie> Wookies { get; set; }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## System.InvalidOperationException - The instance of the entity type cannot be tracked because an other instance withe same key valud is already tracked
 
@@ -88,7 +86,7 @@ public class Wookie
 ![](../../.gitbook/assets/image%20%2818%29.png)
 
 Vous avez sans doute essayer de lancer la **commande de scaffolding depuis une base de données** existante :   
-**dotnet ef dbcontext scaffold "Data Source=\(local\): Initial Catalog=StarWars.Database" Microsoft.EntityFrameworkCore.SqlServer**
+**dotnet ef dbcontext scaffold "Data Source=\(local\); Initial Catalog=StarWars.Database" Microsoft.EntityFrameworkCore.SqlServer**
 
 Il vous faut ajouter la référence au Package :  **Microsoft.EntityFrameworkCore.Design, depuis nuget.**
 
