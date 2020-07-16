@@ -3,6 +3,7 @@
 * [Dotnet core academy](README.md)
 * [Découvrir dotnet client](decouvrir-dotnet-client.md)
 * [C\#8 les nouveautés](c-8-les-nouveautes.md)
+* [C\# 9 les nouveautés](c-9-les-nouveautes.md)
 * [Les extensions Visual Code pour C\# et dotnet core](les-extensions-visual-code-pour-c-et-dotnet-core.md)
 * [dotnet core et Docker](dotnet-core-et-docker.md)
 * [Roadmap d'apprentissage de dotnetcore](developer-learning-dotnet-core-roadmap.md)
