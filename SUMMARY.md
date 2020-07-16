@@ -15,7 +15,8 @@
 
 ## Autour du web
 
-* [asp.net core](autour-du-web/asp-net-core.md)
+* [asp.net core](autour-du-web/asp-net-core/README.md)
+  * [Les ViewComponent](autour-du-web/asp-net-core/les-viewcomponent.md)
 * [Blazor](autour-du-web/blazor.md)
 * [Web api.net](autour-du-web/web-api.net/README.md)
   * [Les questions les plus fréquentes autour de asp.net web API](autour-du-web/web-api.net/les-questions-les-plus-frequentes-autour-de-asp.net-web-api.md)
