@@ -72,7 +72,9 @@ Avec le dotnet core 3.0, nous avons quatres grandes versions du framework :
 * [la 2.0](https://dotnet.microsoft.com/download/dotnet-core/2.0),
 * [la 2.1](https://dotnet.microsoft.com/download/dotnet-core/2.1)
 * [la 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2)
-* et[ la toute dernière : la 3.0](https://dotnet.microsoft.com/download/dotnet-core/3.0)
+* [la 3.0](https://dotnet.microsoft.com/download/dotnet-core/3.0)
+* [la 3.1.x](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+* [Et très bientôt la 5.0 !](https://dotnet.microsoft.com/download/dotnet/5.0)
 
 Chaque version doit être installée sur sa machine.
 
