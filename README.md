@@ -2,11 +2,11 @@
 description: 'Tout sur dotnet core : C#, ml.net, wpf, mvc, api, blazor'
 ---
 
-# Dotnet core academy
+# La communaute dotnet francaises
 
-## Bien démarrer avec dotnet core
+## Bien démarrer avec dotnet core et .net 5
 
-**Vous souhaitez vous lancer dans le dotnet, C\# ou bien VB.net, avec dotnet core !**
+**Vous souhaitez vous lancer dans le dotnet, C\# ou bien VB.net, avec dotnet core / 5 !**
 
 **Bravo, vous avez fait le bon choix !**
 
