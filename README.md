@@ -2,7 +2,7 @@
 description: 'Tout sur dotnet core : C#, ml.net, wpf, mvc, api, blazor'
 ---
 
-# La communaute dotnet francaises
+# La communaute dotnet francaise
 
 ## Bien démarrer avec dotnet core et .net 5
 
