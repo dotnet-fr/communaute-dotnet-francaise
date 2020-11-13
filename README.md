@@ -1,5 +1,5 @@
 ---
-description: 'Tout sur dotnet core : C#, ml.net, wpf, mvc, api, blazor'
+description: 'Tout sur dotnet core et dotnet 5 : C#, ml.net, wpf, mvc, api, blazor'
 ---
 
 # La communaute dotnet francaise
